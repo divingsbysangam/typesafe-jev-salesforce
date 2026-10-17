@@ -70,3 +70,10 @@ jest.config.js
 .prettierrc
 .prettierignore
 .vscode/
+
+# Production notes and build references kept local, not published
+docs/AGENTFORCE_GUARDRAIL_SETUP.md
+docs/OPENAI_DECISIONS_NOTES.md
+docs/RECORDING_FLOW.md
+docs/VIDEO_SCRIPT.md
+docs/VIDEO_SHOT_LIST.md

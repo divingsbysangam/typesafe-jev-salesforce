@@ -9,8 +9,7 @@ generative LLM, and uses it for two jobs where a free-text answer is a liability
    before the agent is allowed to take an action.
 
 Built live, deployed to a Developer Edition org, and run end to end on camera for
-**Deep Dives by Sangam**. The slide deck is in [`video/`](video/), the recording runbook in
-[`docs/RECORDING_FLOW.md`](docs/RECORDING_FLOW.md).
+**Deep Dives by Sangam**. The slide deck is in [`video/`](video/).
 
 ---
 
@@ -72,7 +71,7 @@ Guest message ─→ Agent Script agent ─→ TypeSafeGuardrail (@InvocableMeth
 | `force-app/main/default/queues/` | The nine queues triage can route to |
 | `force-app/main/default/permissionsets/` | `TypeSafe_User` — FLS on the new fields, access to the API principal |
 | `scripts/apex/` | Every demo and probe script, runnable with the Salesforce CLI |
-| `docs/` | Build notes, the API cheat sheets, the agent spec, the guardrail setup guide, shot list and script |
+| `docs/` | The TypeSafe API cheat sheet and the Agent Script agent spec |
 | `video/` | `Deep-Dives-TypeSafe-x-Salesforce-slides.pdf` — the deck |
 
 ---
@@ -281,18 +280,13 @@ Collected while building this against Jev 1.13:
 - Split a complex judgement into one question per factor and combine them in code with weights you
   control, rather than asking one broad question.
 
-## The video
+## Deck and reference
 
 | Resource | Where |
 |---|---|
 | Slide deck (15 slides, PDF) | [`video/Deep-Dives-TypeSafe-x-Salesforce-slides.pdf`](video/Deep-Dives-TypeSafe-x-Salesforce-slides.pdf) |
-| Shot list | [`docs/VIDEO_SHOT_LIST.md`](docs/VIDEO_SHOT_LIST.md) |
-| Script | [`docs/VIDEO_SCRIPT.md`](docs/VIDEO_SCRIPT.md) |
-| Live recording runbook (script + shots + commands in one flow) | [`docs/RECORDING_FLOW.md`](docs/RECORDING_FLOW.md) |
-| Agent spec | [`docs/Coral_Cloud_Guarded_Concierge-AgentSpec.md`](docs/Coral_Cloud_Guarded_Concierge-AgentSpec.md) |
-| Agentforce guardrail setup | [`docs/AGENTFORCE_GUARDRAIL_SETUP.md`](docs/AGENTFORCE_GUARDRAIL_SETUP.md) |
-| TypeSafe API cheat sheet | [`docs/TYPESAFE_API_NOTES.md`](docs/TYPESAFE_API_NOTES.md) |
-| OpenAI Decisions cheat sheet | [`docs/OPENAI_DECISIONS_NOTES.md`](docs/OPENAI_DECISIONS_NOTES.md) |
+| TypeSafe API cheat sheet — endpoint, request/response shapes, the gotchas that shaped the Apex | [`docs/TYPESAFE_API_NOTES.md`](docs/TYPESAFE_API_NOTES.md) |
+| Agent spec for the guarded concierge | [`docs/Coral_Cloud_Guarded_Concierge-AgentSpec.md`](docs/Coral_Cloud_Guarded_Concierge-AgentSpec.md) |
 
 ## Notes
 
