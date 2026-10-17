@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TS_Visible_Damage__c</fullName>
+    <description>OpenAI Decisions predicate probability (0-1) that the newest photo on the case shows visible damage. Written by OpenAIImageCheck.</description>
+    <label>TS Visible Damage</label>
+    <precision>4</precision>
+    <scale>3</scale>
+    <type>Number</type>
+</CustomField>

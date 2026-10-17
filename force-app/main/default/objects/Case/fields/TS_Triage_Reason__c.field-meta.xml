@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TS_Triage_Reason__c</fullName>
+    <description>Why our code took the routing decision it did (thresholds that fired).</description>
+    <label>TS Triage Reason</label>
+    <length>255</length>
+    <type>Text</type>
+</CustomField>

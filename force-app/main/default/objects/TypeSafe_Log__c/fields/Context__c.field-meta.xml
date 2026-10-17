@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Context__c</fullName>
+    <description>Which workflow made the callout.</description>
+    <label>Context</label>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Case_Triage</fullName><default>false</default><label>Case Triage</label></value>
+            <value><fullName>Guardrail_Input</fullName><default>false</default><label>Guardrail Input</label></value>
+            <value><fullName>Guardrail_Output</fullName><default>false</default><label>Guardrail Output</label></value>
+            <value><fullName>Image_Check</fullName><default>false</default><label>Image Check</label></value>
+            <value><fullName>Latency_Probe</fullName><default>false</default><label>Latency Probe</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

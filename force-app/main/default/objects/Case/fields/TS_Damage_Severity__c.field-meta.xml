@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TS_Damage_Severity__c</fullName>
+    <description>OpenAI Decisions score (0 None, 1 Cosmetic, 2 Functional, 3 Hazard) for the newest photo on the case; probability-weighted, can land between levels.</description>
+    <label>TS Damage Severity</label>
+    <precision>4</precision>
+    <scale>2</scale>
+    <type>Number</type>
+</CustomField>

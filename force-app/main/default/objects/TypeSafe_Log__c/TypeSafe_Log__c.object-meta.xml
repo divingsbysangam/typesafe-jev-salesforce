@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>The TypeSafe Log object is the audit trail for every Jev decision callout. It records Context (restricted), the answering Model, Latency, Status Code, token usage, Outcome, and the raw Request and Response. Commonly used for AI audit, latency benchmarking, and threshold tuning.</description>
+    <enableReports>true</enableReports>
+    <label>TypeSafe Log</label>
+    <nameField>
+        <displayFormat>TSL-{000000}</displayFormat>
+        <label>Log Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>TypeSafe Logs</pluralLabel>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

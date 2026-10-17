@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The TypeSafe Setting type holds the tunable knobs for Jev decisions: Model, Timeout, the Choice/Score confidence floor, Noul review and action thresholds, and the severity block level. Business changes become a setting tweak, not a prompt rewrite. Commonly used for threshold tuning and model pinning.</description>
+    <label>TypeSafe Setting</label>
+    <pluralLabel>TypeSafe Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

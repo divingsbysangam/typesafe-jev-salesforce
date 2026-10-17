@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TS_Department__c</fullName>
+    <description>Jev Choice answer: which resort team should own the case.</description>
+    <label>TS Department</label>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Facilities</fullName><default>false</default><label>Facilities</label></value>
+            <value><fullName>Reservations</fullName><default>false</default><label>Reservations</label></value>
+            <value><fullName>Guest_Services</fullName><default>false</default><label>Guest Services</label></value>
+            <value><fullName>Billing</fullName><default>false</default><label>Billing</label></value>
+            <value><fullName>Other</fullName><default>false</default><label>Other</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

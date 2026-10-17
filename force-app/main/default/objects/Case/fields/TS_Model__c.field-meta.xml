@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TS_Model__c</fullName>
+    <description>Versioned Jev model that answered.</description>
+    <label>TS Model</label>
+    <length>40</length>
+    <type>Text</type>
+</CustomField>

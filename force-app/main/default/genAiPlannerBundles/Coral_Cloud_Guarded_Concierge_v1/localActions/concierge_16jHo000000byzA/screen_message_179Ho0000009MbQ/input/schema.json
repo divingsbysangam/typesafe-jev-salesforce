@@ -1,0 +1,21 @@
+{
+  "required" : [ "text", "side" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "side" : {
+      "title" : "Side",
+      "description" : "input for a guest message, output for your own draft reply",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "text" : {
+      "title" : "Text",
+      "description" : "The guest's exact latest message, or your draft reply",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

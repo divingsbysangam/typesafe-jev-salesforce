@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TS_Frustration__c</fullName>
+    <description>Jev Score (0 Calm to 3 Furious); probability-weighted, can land between levels.</description>
+    <label>TS Frustration</label>
+    <precision>4</precision>
+    <scale>2</scale>
+    <type>Number</type>
+</CustomField>
